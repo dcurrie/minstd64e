@@ -53,3 +53,6 @@ dkms.conf
 
 # macOS Finder cruft
 .DS_Store
+
+# application binary
+crush-minstd_64-e
