@@ -1,0 +1,3890 @@
+minstd_64 e$ ./full-crush-minstd_64-e 0 0
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+                 Starting BigCrush
+                 Version: TestU01 1.2.3
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+
+***********************************************************
+Test smarsa_SerialOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r =  0,   d =  256,   t =  3,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =           16777216
+       Expected number per cell =   59.604645
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   0.0083558402,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 16711680
+Value of the statistic                : 1.67e+7
+p-value of test                       :    0.26
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:08.59
+
+Generator state:
+5523565628626872832
+
+
+
+
+***********************************************************
+Test smarsa_SerialOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r = 22,   d =  256,   t =  3,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =           16777216
+       Expected number per cell =   59.604645
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   0.0083558402,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 16711680
+Value of the statistic                : 1.67e+7
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:21.78
+
+Generator state:
+3940547047890441216
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d = 2097152,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1372
+p-value of test                       :    0.42
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334492
+  j =  1                              :        599997256
+  j =  2                              :             1372
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:35.37
+
+Generator state:
+15226913624254429696
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  9,   d = 2097152,   t =  2,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1326
+p-value of test                       :    0.85
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334446
+  j =  1                              :        599997348
+  j =  2                              :             1326
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:29.67
+
+Generator state:
+16387492827640242176
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d = 16384,   t =  3,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1353
+p-value of test                       :    0.61
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334473
+  j =  1                              :        599997294
+  j =  2                              :             1353
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:06:50.02
+
+Generator state:
+9933068250902857216
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 16,   d = 16384,   t =  3,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1398
+p-value of test                       :    0.18
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334518
+  j =  1                              :        599997204
+  j =  2                              :             1398
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:06:51.06
+
+Generator state:
+6924507379460140032
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d =   64,   t =  7,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1386
+p-value of test                       :    0.28
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334506
+  j =  1                              :        599997228
+  j =  2                              :             1386
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:07:02.15
+
+Generator state:
+8526017517583290880
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 24,   d =   64,   t =  7,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1408
+p-value of test                       :    0.12
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334528
+  j =  1                              :        599997184
+  j =  2                              :             1408
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:07:31.19
+
+Generator state:
+6005145788396845056
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = hp7f79f6.sunrise-labs.local, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d =    8,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1317
+p-value of test                       :    0.90
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334437
+  j =  1                              :        599997366
+  j =  2                              :             1317
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:50.42
+
+Generator state:
+17626267281297776128
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 27,   d =    8,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1352
+p-value of test                       :    0.62
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334472
+  j =  1                              :        599997296
+  j =  2                              :             1352
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:34.48
+
+Generator state:
+14863608757117289472
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r =  0,   d =    4,   t = 21,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1352
+p-value of test                       :    0.62
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334472
+  j =  1                              :        599997296
+  j =  2                              :             1352
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:34.59
+
+Generator state:
+14634969016668580352
+
+
+
+
+***********************************************************
+Test smarsa_CollisionOver calling smultin_MultinomialOver
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_MultinomialOver test:
+-----------------------------------------------
+   N = 30,  n = 20000000,  r = 28,   d =    4,   t = 21,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellSerial
+       Number of cells = d^t =      4398046511104
+       Expected number per cell =  1 /  219902.33
+       EColl = n^2 / (2k) =  45.47473509
+       Hashing =   TRUE
+
+       Collision test
+
+       CollisionOver:   density = n / k =  1 /  219902.33
+       Expected number of collisions = Mu =      45.47
+
+
+-----------------------------------------------
+Results of CollisionOver test:
+
+POISSON approximation                 :
+Expected number of collisions = N*Mu  :     1364.24
+Observed number of collisions         :     1341
+p-value of test                       :    0.73
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :  131940795334461
+  j =  1                              :        599997318
+  j =  2                              :             1341
+  j =  3                              :                0
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:05:27.46
+
+Generator state:
+5514742605908627456
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 100,  n = 10000000,  r =  0,    d = 2147483648,    t = 2,    p = 1
+
+
+      Number of cells = d^t = 4611686018427387904
+      Lambda = Poisson mean =      54.2101
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    5421.01
+Total observed number                 :    5331
+p-value of test                       :    0.89
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:20.98
+
+Generator state:
+5500598141144966144
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  0,    d = 2097152,    t = 3,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    4336.81
+Total observed number                 :    4406
+p-value of test                       :    0.15
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:24.98
+
+Generator state:
+11935324414740492288
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 14,    d = 65536,    t = 4,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7316
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:17.19
+
+Generator state:
+14716955574792685568
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  0,    d = 512,    t = 7,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    4336.81
+Total observed number                 :    4309
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:33.84
+
+Generator state:
+801474985190417408
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  7,    d = 512,    t = 7,    p = 1
+
+
+      Number of cells = d^t = 9223372036854775808
+      Lambda = Poisson mean =     216.8404
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    4336.81
+Total observed number                 :    4297
+p-value of test                       :    0.72
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:38.06
+
+Generator state:
+13322895450597801984
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 14,    d = 256,    t = 8,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7478
+p-value of test                       :    0.03
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:34.17
+
+Generator state:
+16052354985491427328
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 22,    d = 256,    t = 8,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7472
+p-value of test                       :    0.04
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:33.81
+
+Generator state:
+13726482280163254272
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r =  0,    d = 16,    t = 16,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7395
+p-value of test                       :    0.19
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:53.61
+
+Generator state:
+10104528833795948544
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_BirthdaySpacings test:
+-----------------------------------------------
+   N = 20,  n = 30000000,  r = 26,    d = 16,    t = 16,    p = 1
+
+
+      Number of cells = d^t = 18446744073709551616
+      Lambda = Poisson mean =     365.9182
+
+
+----------------------------------------------------
+Total expected number = N*Lambda      :    7318.36
+Total observed number                 :    7427
+p-value of test                       :    0.10
+
+
+-----------------------------------------------
+CPU time used                    :  00:03:07.93
+
+Generator state:
+16401868407695204352
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 30,  n = 6000000,  r =  0,  t = 3,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    1.00
+p-value of test                       :    0.35
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.88
+p-value of test                       :    0.43
+
+Test on the Nm values of W_{n,i}(mNP1):    0.24
+p-value of test                       :    0.97
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     900
+Number of jumps of Y                  :     887
+p-value of test                       :    0.66
+
+Stat. AD (mNP2)                       :    0.40
+p-value of test                       :    0.85
+
+Stat. AD after spacings (mNP2-S)      :    0.30
+p-value of test                       :    0.94
+
+-----------------------------------------------
+CPU time used                    :  00:02:15.64
+
+Generator state:
+1021664082860535552
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 20,  n = 4000000,  r =  0,  t = 5,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.92
+p-value of test                       :    0.40
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    1.21
+p-value of test                       :    0.27
+
+Test on the Nm values of W_{n,i}(mNP1):    0.39
+p-value of test                       :    0.85
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     600
+Number of jumps of Y                  :     599
+p-value of test                       :    0.51
+
+Stat. AD (mNP2)                       :    0.92
+p-value of test                       :    0.40
+
+Stat. AD after spacings (mNP2-S)      :    0.74
+p-value of test                       :    0.52
+
+-----------------------------------------------
+CPU time used                    :  00:01:31.69
+
+Generator state:
+3062717995467256576
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N = 10,  n = 3000000,  r =  0,  t = 9,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    0.83
+p-value of test                       :    0.45
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    0.62
+p-value of test                       :    0.63
+
+Test on the Nm values of W_{n,i}(mNP1):    0.57
+p-value of test                       :    0.68
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     300
+Number of jumps of Y                  :     287
+p-value of test                       :    0.76
+
+Stat. AD (mNP2)                       :    0.73
+p-value of test                       :    0.54
+
+Stat. AD after spacings (mNP2-S)      :    0.36
+p-value of test                       :    0.88
+
+-----------------------------------------------
+CPU time used                    :  00:02:31.22
+
+Generator state:
+10782026452485831296
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+snpair_ClosePairs test:
+-----------------------------------------------
+   N =  5,  n = 2000000,  r =  0,  t = 16,  p = 0,  m = 30,  Torus =  TRUE
+
+
+---------------------------------------
+Test based on the 2 nearest points (NP):
+
+Stat. AD on the N values (NP)         :    3.20
+p-value of test                       :    0.02
+
+
+A2 test based on the spacings between the
+   successive jump times of process Y_n(t):
+
+A2 test on the values of A2 (m-NP)    :    2.10
+p-value of test                       :    0.08
+
+Test on the Nm values of W_{n,i}(mNP1):    0.87
+p-value of test                       :    0.43
+
+Test on the jump times of Y
+   (superposition of Yn):
+
+Expected number of jumps of Y = mN    :     150
+Number of jumps of Y                  :     131
+p-value of test                       :    0.94
+
+Stat. AD (mNP2)                       :    0.69
+p-value of test                       :    0.56
+
+Stat. AD after spacings (mNP2-S)      :    0.84
+p-value of test                       :    0.45
+
+-----------------------------------------------
+CPU time used                    :  00:02:56.94
+
+Generator state:
+17300860817885192832
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 400000000,  r =  0,   d =    8,   k =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    7
+Chi-square statistic                  :   11.78
+p-value of test                       :    0.11
+
+-----------------------------------------------
+CPU time used                    :  00:00:38.77
+
+Generator state:
+12066356988477932160
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 400000000,  r = 27,   d =    8,   k =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    7
+Chi-square statistic                  :    7.81
+p-value of test                       :    0.35
+
+-----------------------------------------------
+CPU time used                    :  00:00:46.72
+
+Generator state:
+5504043878263136896
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   d =   32,   k =   32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   18
+Chi-square statistic                  :   28.57
+p-value of test                       :    0.05
+
+-----------------------------------------------
+CPU time used                    :  00:00:37.96
+
+Generator state:
+8634792725369832064
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_SimpPoker test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 25,   d =   32,   k =   32
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   18
+Chi-square statistic                  :   26.19
+p-value of test                       :    0.10
+
+-----------------------------------------------
+CPU time used                    :  00:00:46.48
+
+Generator state:
+14032730694217491072
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r =  0,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   47.94
+p-value of test                       :    0.71
+
+-----------------------------------------------
+CPU time used                    :  00:00:46.81
+
+Generator state:
+14332199643574766006
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r = 10,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   57.07
+p-value of test                       :    0.36
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.55
+
+Generator state:
+5789604767683020666
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r = 20,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   48.21
+p-value of test                       :    0.70
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.39
+
+Generator state:
+5134796368004091947
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_CouponCollector test:
+-----------------------------------------------
+   N =  1,  n = 200000000,  r = 27,   d =    8
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   54
+Chi-square statistic                  :   55.78
+p-value of test                       :    0.41
+
+-----------------------------------------------
+CPU time used                    :  00:00:56.50
+
+Generator state:
+6272798361915164063
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   Alpha =        0,   Beta  =   0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  232
+Chi-square statistic                  :  271.44
+p-value of test                       :    0.04
+
+-----------------------------------------------
+CPU time used                    :  00:00:45.85
+
+Generator state:
+262717186939380652
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 300000000,  r = 25,   Alpha =        0,   Beta  =  0.03125
+
+
+-----------------------------------------------
+Number of degrees of freedom          :  434
+Chi-square statistic                  :  426.71
+p-value of test                       :    0.59
+
+-----------------------------------------------
+CPU time used                    :  00:01:12.14
+
+Generator state:
+11899160807935791954
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   Alpha =        0,   Beta  = 0.0078125
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 1437
+Chi-square statistic                  : 1433.99
+p-value of test                       :    0.52
+
+-----------------------------------------------
+CPU time used                    :  00:01:03.18
+
+Generator state:
+8166683349978139858
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_Gap test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 20,   Alpha =        0,   Beta  = 0.000976562
+
+
+-----------------------------------------------
+Number of degrees of freedom          : 7046
+Chi-square statistic                  : 7256.27
+p-value of test                       :    0.04
+
+-----------------------------------------------
+CPU time used                    :  00:01:11.86
+
+Generator state:
+168745343645610099
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N =  5,  n = 1000000000,  r =  0,   Up = FALSE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.16
+p-value of test                       :    0.72
+
+Kolmogorov-Smirnov- statistic = D-    :    0.29
+p-value of test                       :    0.37
+
+Anderson-Darling statistic = A2       :    0.54
+p-value of test                       :    0.70
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   30
+Chi-square statistic                  :   33.39
+p-value of test                       :    0.31
+
+-----------------------------------------------
+CPU time used                    :  00:00:51.21
+
+Generator state:
+6786611832458478195
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_Run test:
+-----------------------------------------------
+   N = 10,  n = 1000000000,  r = 15,   Up =  TRUE
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.13
+p-value of test                       :    0.65
+
+Kolmogorov-Smirnov- statistic = D-    :    0.22
+p-value of test                       :    0.34
+
+Anderson-Darling statistic = A2       :    0.45
+p-value of test                       :    0.80
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   60
+Chi-square statistic                  :   58.47
+p-value of test                       :    0.53
+
+-----------------------------------------------
+CPU time used                    :  00:02:15.14
+
+Generator state:
+4687733083753195123
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r =  5,   t =  3,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =                  6
+       Expected number per cell =  1.6666667e+08
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  2.5000002e-09,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          :    5
+Value of the statistic                :    1.07
+p-value of test                       :    0.96
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.52
+
+Generator state:
+1807869274456908915
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r =  5,   t =  5,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =                120
+       Expected number per cell =   8333333.3
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.9500005e-08,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          :  119
+Value of the statistic                :  105.74
+p-value of test                       :    0.80
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:09.97
+
+Generator state:
+4592790875502802547
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  5,   t =  7,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =               5040
+       Expected number per cell =   99206.349
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =  5.0390004e-06,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 5039
+Value of the statistic                : 5040.09
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:00.90
+
+Generator state:
+6555611637962041715
+
+
+
+
+***********************************************************
+Test sknuth_Permutation calling smultin_Multinomial
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r = 10,   t = 10,
+       Sparse =  FALSE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =            3628800
+       Expected number per cell =    137.7866
+       Hashing =  FALSE
+
+   For Delta > -1, we use the ChiSquare approximation
+   Correction factor of the ChiSquare: 
+       Delta =     1,    Mu =   0.0036287993,    Sigma =          1
+
+-----------------------------------------------
+Test Results for Delta =   1.0000
+
+Number of degrees of freedom          : 3628799
+Value of the statistic                : 3.63e+6
+p-value of test                       :    0.59
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:22.85
+
+Generator state:
+10565404132364778355
+
+
+
+
+***********************************************************
+Test sknuth_CollisionPermut calling smultin_Multinomial
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r =  0,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =        87178291200
+       Expected number per cell =  1 /  4358.9146
+       EColl = n^2 / (2k) =   2294.14912
+       Hashing =   TRUE
+
+       Collision test,    Mu =      2293.9736,    Sigma =    47.8841
+
+-----------------------------------------------
+Test Results for Collisions
+
+For the total number of collisions, we use
+      the Poisson approximation:
+Expected number of collisions = N*Mu  :    45879.47
+Observed number of collisions         :    45891
+p-value of test                       :    0.48
+
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    1743165869891
+  j =  1                              :        399908220
+  j =  2                              :            45887
+  j =  3                              :                2
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:03:45.89
+
+Generator state:
+12774460085579592563
+
+
+
+
+***********************************************************
+Test sknuth_CollisionPermut calling smultin_Multinomial
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smultin_Multinomial test:
+-----------------------------------------------
+   N = 20,  n = 20000000,  r = 10,   t = 14,
+       Sparse =   TRUE
+
+       GenerCell = smultin_GenerCellPermut
+       Number of cells = t! =        87178291200
+       Expected number per cell =  1 /  4358.9146
+       EColl = n^2 / (2k) =   2294.14912
+       Hashing =   TRUE
+
+       Collision test,    Mu =      2293.9736,    Sigma =    47.8841
+
+-----------------------------------------------
+Test Results for Collisions
+
+For the total number of collisions, we use
+      the Poisson approximation:
+Expected number of collisions = N*Mu  :    45879.47
+Observed number of collisions         :    45686
+p-value of test                       :    0.82
+
+
+-----------------------------
+Total number of cells containing j balls
+
+  j =  0                              :    1743165869686
+  j =  1                              :        399908630
+  j =  2                              :            45682
+  j =  3                              :                2
+  j =  4                              :                0
+  j =  5                              :                0
+
+-----------------------------------------------
+CPU time used                    :  00:03:52.84
+
+Generator state:
+2165913601418029939
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 40,  n = 10000000,  r =  0,   d = 100000,   t =  8
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.34
+
+Kolmogorov-Smirnov- statistic = D-    :   0.065
+p-value of test                       :    0.68
+
+Anderson-Darling statistic = A2       :    0.60
+p-value of test                       :    0.65
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 3999960
+Chi-square statistic                  : 4.00e+6
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.12
+p-value of test                       :    0.27
+
+Kolmogorov-Smirnov- statistic = D-    :   0.043
+p-value of test                       :    0.84
+
+Anderson-Darling statistic = A2       :    0.78
+p-value of test                       :    0.49
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:29.21
+
+Generator state:
+13892790497901251443
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 30,  n = 10000000,  r =  0,   d = 100000,   t = 16
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.11
+p-value of test                       :    0.46
+
+Kolmogorov-Smirnov- statistic = D-    :   0.015
+p-value of test                       :    0.98
+
+Anderson-Darling statistic = A2       :    0.58
+p-value of test                       :    0.66
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 2999970
+Chi-square statistic                  : 3.00e+6
+p-value of test                       :    0.85
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.021
+p-value of test                       :    0.96
+
+Kolmogorov-Smirnov- statistic = D-    :    0.22
+p-value of test                       :    0.05
+
+Anderson-Darling statistic = A2       :    1.41
+p-value of test                       :    0.20
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:17.60
+
+Generator state:
+198416136398748531
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   d = 100000,   t = 24
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.022
+p-value of test                       :    0.97
+
+Kolmogorov-Smirnov- statistic = D-    :    0.21
+p-value of test                       :    0.16
+
+Anderson-Darling statistic = A2       :    1.49
+p-value of test                       :    0.18
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 1999980
+Chi-square statistic                  : 2.00e+6
+p-value of test                       :    0.05
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.083
+p-value of test                       :    0.72
+
+Kolmogorov-Smirnov- statistic = D-    :    0.21
+p-value of test                       :    0.16
+
+Anderson-Darling statistic = A2       :    1.10
+p-value of test                       :    0.31
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:58.30
+
+Generator state:
+14656309301886184307
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sknuth_MaxOft test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   d = 100000,   t = 32
+
+      Number of categories = 100000
+      Expected number per category  = 100.00
+
+
+-----------------------------------------------
+Test results for chi2 with 99999 degrees of freedom:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.10
+p-value of test                       :    0.63
+
+Kolmogorov-Smirnov- statistic = D-    :    0.21
+p-value of test                       :    0.15
+
+Anderson-Darling statistic = A2       :    0.70
+p-value of test                       :    0.56
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 1999980
+Chi-square statistic                  : 2.00e+6
+p-value of test                       :    0.39
+
+
+-----------------------------------------------
+Test results for Anderson-Darling:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.13
+p-value of test                       :    0.47
+
+Kolmogorov-Smirnov- statistic = D-    :    0.12
+p-value of test                       :    0.50
+
+Anderson-Darling statistic = A2       :    0.48
+p-value of test                       :    0.77
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:05.39
+
+Generator state:
+11773233074247707507
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N = 40,  n = 10000000,  r =  0,   t = 8
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.041
+p-value of test                       :    0.85
+
+Kolmogorov-Smirnov- statistic = D-    :    0.20
+p-value of test                       :    0.03
+
+Anderson-Darling statistic = A2       :    1.81
+p-value of test                       :    0.12
+
+-----------------------------------------------
+CPU time used                    :  00:01:14.03
+
+Generator state:
+4910336025706384243
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   t = 16
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.16
+p-value of test                       :    0.32
+
+Kolmogorov-Smirnov- statistic = D-    :    0.17
+p-value of test                       :    0.27
+
+Anderson-Darling statistic = A2       :    0.67
+p-value of test                       :    0.58
+
+-----------------------------------------------
+CPU time used                    :  00:00:51.38
+
+Generator state:
+6413525296093752179
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SampleProd test:
+-----------------------------------------------
+   N = 20,  n = 10000000,  r =  0,   t = 24
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.20
+p-value of test                       :    0.17
+
+Kolmogorov-Smirnov- statistic = D-    :   0.076
+p-value of test                       :    0.76
+
+Anderson-Darling statistic = A2       :    1.52
+p-value of test                       :    0.17
+
+-----------------------------------------------
+CPU time used                    :  00:01:07.42
+
+Generator state:
+1928307833360849779
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SampleMean test:
+-----------------------------------------------
+   N = 20000000,  n = 30,  r =  0
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.05e-4
+p-value of test                       :    0.64
+
+Kolmogorov-Smirnov- statistic = D-    : 1.77e-4
+p-value of test                       :    0.29
+
+Anderson-Darling statistic = A2       :    0.59
+p-value of test                       :    0.66
+
+-----------------------------------------------
+CPU time used                    :  00:00:12.14
+
+Generator state:
+14811215096713396595
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SampleMean test:
+-----------------------------------------------
+   N = 20000000,  n = 30,  r = 10
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 1.58e-4
+p-value of test                       :    0.37
+
+Kolmogorov-Smirnov- statistic = D-    : 4.90e-5
+p-value of test                       :    0.91
+
+Anderson-Darling statistic = A2       :    0.46
+p-value of test                       :    0.79
+
+-----------------------------------------------
+CPU time used                    :  00:00:13.01
+
+Generator state:
+503356110341597043
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SampleCorr test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r =  0,   k = 1
+
+
+-----------------------------------------------
+Normal statistic                      :    0.64
+p-value of test                       :    0.26
+
+-----------------------------------------------
+CPU time used                    :  00:00:15.07
+
+Generator state:
+14081531606664854387
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SampleCorr test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r =  0,   k = 2
+
+
+-----------------------------------------------
+Normal statistic                      :    1.05
+p-value of test                       :    0.15
+
+-----------------------------------------------
+CPU time used                    :  00:00:15.82
+
+Generator state:
+1842156957947170675
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 10000000,   K = 1000000000,   r = 0,   s = 3,   L = 15
+
+   Sequences of n = (K + Q)L =  15150000000 bits
+   Q = 10000000 initialization blocks
+   K = 1000000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -1.27
+p-value of test                       :    0.90
+
+-----------------------------------------------
+CPU time used                    :  00:00:36.77
+
+Generator state:
+3741665826388711923
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_AppearanceSpacings test:
+-----------------------------------------------
+   N =  1,   Q = 10000000,   K = 1000000000,   r = 27,   s = 3,   L = 15
+
+   Sequences of n = (K + Q)L =  15150000000 bits
+   Q = 10000000 initialization blocks
+   K = 1000000000 blocks for the test
+   the blocks have L = 15 bits
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.94
+p-value of test                       :    0.17
+
+-----------------------------------------------
+CPU time used                    :  00:00:39.15
+
+Generator state:
+9712072936016290931
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r =  0,  k = 256,  Alpha =      0,  Beta =   0.25
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   67
+Chi-square statistic                  :   52.91
+p-value of test                       :    0.90
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.77
+
+Generator state:
+13826059866884318323
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 20,  k = 256,  Alpha =      0,  Beta =   0.25
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   67
+Chi-square statistic                  :   92.57
+p-value of test                       :    0.02
+
+-----------------------------------------------
+CPU time used                    :  00:00:34.63
+
+Generator state:
+7121587541398627443
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 28,  k = 256,  Alpha =      0,  Beta =   0.25
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   67
+Chi-square statistic                  :   60.15
+p-value of test                       :    0.71
+
+-----------------------------------------------
+CPU time used                    :  00:00:34.53
+
+Generator state:
+11792394923241022579
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r =  0,  k = 256,  Alpha =      0,  Beta = 0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   37
+Chi-square statistic                  :   36.16
+p-value of test                       :    0.51
+
+-----------------------------------------------
+CPU time used                    :  00:00:24.78
+
+Generator state:
+13138732828674204787
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 10,  k = 256,  Alpha =      0,  Beta = 0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   37
+Chi-square statistic                  :   25.34
+p-value of test                       :    0.93
+
+-----------------------------------------------
+CPU time used                    :  00:00:34.63
+
+Generator state:
+14907596147670426739
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_WeightDistrib test:
+-----------------------------------------------
+   N =  1,  n = 20000000,  r = 26,  k = 256,  Alpha =      0,  Beta = 0.0625
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   37
+Chi-square statistic                  :   58.60
+p-value of test                       :    0.01
+
+-----------------------------------------------
+CPU time used                    :  00:00:34.68
+
+Generator state:
+2399235696492389491
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+svaria_SumCollector test:
+-----------------------------------------------
+   N =  1,  n = 500000000,  r =  0,   g = 10
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   29
+Chi-square statistic                  :   17.44
+p-value of test                       :    0.95
+
+-----------------------------------------------
+CPU time used                    :  00:00:59.36
+
+Generator state:
+1718838735456588901
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N = 10,  n = 1000000,  r =  0,    s = 5,    L = 30,    k = 30
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.27
+p-value of test                       :    0.20
+
+Kolmogorov-Smirnov- statistic = D-    :    0.13
+p-value of test                       :    0.66
+
+Anderson-Darling statistic = A2       :    0.99
+p-value of test                       :    0.36
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   40
+Chi-square statistic                  :   30.20
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:00:53.51
+
+Generator state:
+6202885578041706085
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N = 10,  n = 1000000,  r = 25,    s = 5,    L = 30,    k = 30
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.25
+p-value of test                       :    0.24
+
+Kolmogorov-Smirnov- statistic = D-    :    0.12
+p-value of test                       :    0.68
+
+Anderson-Darling statistic = A2       :    0.82
+p-value of test                       :    0.46
+
+Test on the sum of all N observations
+Number of degrees of freedom          :   40
+Chi-square statistic                  :   35.11
+p-value of test                       :    0.69
+
+-----------------------------------------------
+CPU time used                    :  00:00:53.97
+
+Generator state:
+2723225345545287781
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 5000,  r =  0,    s = 4,    L = 1000,    k = 1000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    0.73
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:01:42.14
+
+Generator state:
+8363995392110927077
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 5000,  r = 26,    s = 4,    L = 1000,    k = 1000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    3
+Chi-square statistic                  :    1.07
+p-value of test                       :    0.78
+
+-----------------------------------------------
+CPU time used                    :  00:01:41.65
+
+Generator state:
+17489619768555340133
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 80,  r = 15,    s = 15,    L = 5000,    k = 5000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    2.40
+p-value of test                       :    0.30
+
+-----------------------------------------------
+CPU time used                    :  00:01:22.21
+
+Generator state:
+17885347997397451877
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_MatrixRank test:
+-----------------------------------------------
+   N =  1,  n = 80,  r =  0,    s = 30,    L = 5000,    k = 5000
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    2
+Chi-square statistic                  :    5.29
+p-value of test                       :    0.07
+
+-----------------------------------------------
+CPU time used                    :  00:01:06.71
+
+Generator state:
+8588722277061215717
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_Savir2 test:
+-----------------------------------------------
+   N = 10,  n = 10000000,  r = 10,    m = 1048576,    t = 30
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.29
+p-value of test                       :    0.15
+
+Kolmogorov-Smirnov- statistic = D-    :   0.090
+p-value of test                       :    0.80
+
+Anderson-Darling statistic = A2       :    1.43
+p-value of test                       :    0.19
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  130
+Chi-square statistic                  :  111.91
+p-value of test                       :    0.87
+
+-----------------------------------------------
+CPU time used                    :  00:00:20.68
+
+Generator state:
+18061248080837182437
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+smarsa_GCD test:
+-----------------------------------------------
+   N = 10,  n = 50000000,  r =  0,   s = 30
+
+
+-----------------------------------------------
+Test results for GCD values:
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.23
+p-value of test                       :    0.30
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.72
+
+Anderson-Darling statistic = A2       :    0.73
+p-value of test                       :    0.53
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 17430
+Chi-square statistic                  :17398.95
+p-value of test                       :    0.56
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:33.13
+
+Generator state:
+10539833147882696165
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r =  0,   s = 5,   L0 =   50,   L1 =   50
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   33.40
+p-value of test                       :    0.59
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   35
+ChiSquare statistic                   :   30.88
+p-value of test                       :    0.67
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   25
+ChiSquare statistic                   :   31.68
+p-value of test                       :    0.17
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   24
+ChiSquare statistic                   :   32.37
+p-value of test                       :    0.12
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   17
+ChiSquare statistic                   :   20.79
+p-value of test                       :    0.24
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:31.78
+
+Generator state:
+13013039224203335653
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 25,   s = 5,   L0 =   50,   L1 =   50
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :   36
+ChiSquare statistic                   :   34.76
+p-value of test                       :    0.53
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :   35
+ChiSquare statistic                   :   35.59
+p-value of test                       :    0.44
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :   25
+ChiSquare statistic                   :   20.97
+p-value of test                       :    0.69
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :   24
+ChiSquare statistic                   :   27.84
+p-value of test                       :    0.27
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   17
+ChiSquare statistic                   :   17.86
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:32.09
+
+Generator state:
+17343132950195814885
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 10,   L0 = 1000,   L1 = 1000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  144.96
+p-value of test                       :    0.51
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  151.26
+p-value of test                       :    0.37
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  500
+ChiSquare statistic                   :  502.19
+p-value of test                       :    0.46
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  136
+ChiSquare statistic                   :  146.77
+p-value of test                       :    0.25
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   74
+ChiSquare statistic                   :   67.95
+p-value of test                       :    0.68
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:44.93
+
+Generator state:
+5063375220882615269
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 20,   s = 10,   L0 = 1000,   L1 = 1000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  149.60
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  146
+ChiSquare statistic                   :  160.57
+p-value of test                       :    0.19
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          :  500
+ChiSquare statistic                   :  515.93
+p-value of test                       :    0.30
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  136
+ChiSquare statistic                   :  101.79
+p-value of test                       :    0.99
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :   74
+ChiSquare statistic                   :   75.08
+p-value of test                       :    0.44
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:43.26
+
+Generator state:
+2718253407040640485
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r =  0,   s = 15,   L0 = 10000,   L1 = 10000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  389.72
+p-value of test                       :    0.41
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  352.55
+p-value of test                       :    0.87
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5000
+ChiSquare statistic                   : 5150.70
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  378
+ChiSquare statistic                   :  407.57
+p-value of test                       :    0.14
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  200
+ChiSquare statistic                   :  205.28
+p-value of test                       :    0.38
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:37.87
+
+Generator state:
+10011422469284703909
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+swalk_RandomWalk1 test:
+-----------------------------------------------
+   N =  1,  n = 1000000,  r = 15,   s = 15,   L0 = 10000,   L1 = 10000
+
+
+
+-----------------------------------------------
+Test on the values of the Statistic H
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  390.47
+p-value of test                       :    0.40
+
+
+-----------------------------------------------
+Test on the values of the Statistic M
+
+Number of degrees of freedom          :  384
+ChiSquare statistic                   :  397.89
+p-value of test                       :    0.30
+
+
+-----------------------------------------------
+Test on the values of the Statistic J
+
+Number of degrees of freedom          : 5000
+ChiSquare statistic                   : 4908.57
+p-value of test                       :    0.82
+
+
+-----------------------------------------------
+Test on the values of the Statistic R
+
+Number of degrees of freedom          :  378
+ChiSquare statistic                   :  351.90
+p-value of test                       :    0.83
+
+
+-----------------------------------------------
+Test on the values of the Statistic C
+
+Number of degrees of freedom          :  200
+ChiSquare statistic                   :  230.08
+p-value of test                       :    0.07
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:37.80
+
+Generator state:
+7642059019196778341
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 400020,  r =  0,    s = 1
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   12
+Chi2 statistic for size of jumps      :    9.47
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :    0.68
+p-value of test                       :    0.25
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:02.61
+
+Generator state:
+17275067677154487609
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+scomp_LinearComp test:
+-----------------------------------------------
+   N =  1,  n = 400020,  r = 29,    s = 1
+
+
+
+-----------------------------------------------
+Number of degrees of freedom          :   12
+Chi2 statistic for size of jumps      :    9.51
+p-value of test                       :    0.66
+
+
+-----------------------------------------------
+Normal statistic for number of jumps  :    1.12
+p-value of test                       :    0.13
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:02:02.77
+
+Generator state:
+16596810820500438285
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N = 10,  n = 134217728,  r =  0,   s =   30,   k =   27
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.27
+p-value of test                       :    0.19
+
+Kolmogorov-Smirnov- statistic = D-    :    0.25
+p-value of test                       :    0.24
+
+Anderson-Darling statistic = A2       :    0.94
+p-value of test                       :    0.39
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.16
+p-value of test                       :    0.44
+
+Sample variance                       :    0.36
+p-value of test                       :    0.96
+
+-----------------------------------------------
+CPU time used                    :  00:00:58.56
+
+Generator state:
+3386838778848733343
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+scomp_LempelZiv test:
+-----------------------------------------------
+   N = 10,  n = 134217728,  r = 15,   s =   15,   k =   27
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.14
+p-value of test                       :    0.62
+
+Kolmogorov-Smirnov- statistic = D-    :    0.30
+p-value of test                       :    0.13
+
+Anderson-Darling statistic = A2       :    1.11
+p-value of test                       :    0.30
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.89
+p-value of test                       :    0.19
+
+Sample variance                       :    0.56
+p-value of test                       :    0.83
+
+-----------------------------------------------
+CPU time used                    :  00:00:59.29
+
+Generator state:
+10483266844719671769
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 100000,  n = 16384,  r =  0,   s =    3,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.011
+p-value of test                       :    0.34
+
+Kolmogorov-Smirnov- statistic = D-    : 4.63e-3
+p-value of test                       :    0.84
+
+Anderson-Darling statistic = A2       :    0.67
+p-value of test                       :    0.59
+
+-----------------------------------------------
+CPU time used                    :  00:00:33.81
+
+Generator state:
+15555084809720967065
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sspectral_Fourier3 test:
+-----------------------------------------------
+   N = 100000,  n = 16384,  r = 27,   s =    3,   k =   14
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    : 8.01e-3
+p-value of test                       :    0.59
+
+Kolmogorov-Smirnov- statistic = D-    : 8.63e-3
+p-value of test                       :    0.54
+
+Anderson-Darling statistic = A2       :    0.41
+p-value of test                       :    0.84
+
+-----------------------------------------------
+CPU time used                    :  00:00:33.94
+
+Generator state:
+10921152569584711001
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 1000,  r =  0,   s = 3,   L = 10000020
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :    6.80
+p-value of test                       :    0.56
+
+-----------------------------------------------
+Global longest run of 1               :   32.00
+p-value of test                       :    0.50
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:10.22
+
+Generator state:
+9836929525460266681
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_LongestHeadRun test:
+-----------------------------------------------
+   N =  1,  n = 1000,  r = 27,   s = 3,   L = 10000020
+
+
+-----------------------------------------------
+Number of degrees of freedom          :    8
+Chi-square statistic                  :   10.37
+p-value of test                       :    0.24
+
+-----------------------------------------------
+Global longest run of 1               :   31.00
+p-value of test                       :    0.69
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:01:11.52
+
+Generator state:
+1629411727390173209
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N = 10,  n = 500000000,  r =  0,   s =   10
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.16
+p-value of test                       :    0.55
+
+Kolmogorov-Smirnov- statistic = D-    :    0.27
+p-value of test                       :    0.20
+
+Anderson-Darling statistic = A2       :    1.02
+p-value of test                       :    0.35
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  200
+Chi-square statistic                  :  211.75
+p-value of test                       :    0.27
+
+-----------------------------------------------
+CPU time used                    :  00:01:45.78
+
+Generator state:
+536577911608113689
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_PeriodsInStrings test:
+-----------------------------------------------
+   N = 10,  n = 500000000,  r = 20,   s =   10
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.12
+p-value of test                       :    0.70
+
+Kolmogorov-Smirnov- statistic = D-    :    0.14
+p-value of test                       :    0.62
+
+Anderson-Darling statistic = A2       :    0.30
+p-value of test                       :    0.94
+
+Test on the sum of all N observations
+Number of degrees of freedom          :  200
+Chi-square statistic                  :  206.15
+p-value of test                       :    0.37
+
+-----------------------------------------------
+CPU time used                    :  00:01:46.80
+
+Generator state:
+13113626487389391897
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingWeight2 test:
+-----------------------------------------------
+   N = 10,  n = 1000000000,  r =  0,   s = 3,   L = 1000000
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.20
+p-value of test                       :    0.40
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.73
+
+Anderson-Darling statistic = A2       :    0.82
+p-value of test                       :    0.47
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 10000
+Chi-square statistic                  : 9870.65
+p-value of test                       :    0.82
+
+-----------------------------------------------
+CPU time used                    :  00:00:34.12
+
+Generator state:
+1432732150359131513
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingWeight2 test:
+-----------------------------------------------
+   N = 10,  n = 1000000000,  r = 27,   s = 3,   L = 1000000
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.069
+p-value of test                       :    0.87
+
+Kolmogorov-Smirnov- statistic = D-    :    0.25
+p-value of test                       :    0.24
+
+Anderson-Darling statistic = A2       :    1.02
+p-value of test                       :    0.34
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 10000
+Chi-square statistic                  :10161.45
+p-value of test                       :    0.13
+
+-----------------------------------------------
+CPU time used                    :  00:00:35.64
+
+Generator state:
+6504533715862617817
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 1000000000,  r = 10,   s = 10,   L = 30
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.28
+p-value of test                       :    0.39
+
+-----------------------------------------------
+CPU time used                    :  00:00:48.38
+
+Generator state:
+3761475816373599449
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 10,   s = 10,   L = 300
+
+
+
+-----------------------------------------------
+Normal statistic                      :   -0.26
+p-value of test                       :    0.60
+
+-----------------------------------------------
+CPU time used                    :  00:00:46.94
+
+Generator state:
+10794883099998845657
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingCorr test:
+-----------------------------------------------
+   N =  1,  n = 100000000,  r = 10,   s = 10,   L = 1200
+
+
+
+-----------------------------------------------
+Normal statistic                      :    0.21
+p-value of test                       :    0.42
+
+-----------------------------------------------
+CPU time used                    :  00:03:04.20
+
+Generator state:
+5324000213349659353
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N = 10,  n = 30000000,  r =  0,   s = 3,   L = 30,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.26
+p-value of test                       :    0.22
+
+Kolmogorov-Smirnov- statistic = D-    :    0.29
+p-value of test                       :    0.15
+
+Anderson-Darling statistic = A2       :    1.23
+p-value of test                       :    0.25
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 4890
+Chi-square statistic                  : 4871.96
+p-value of test                       :    0.57
+
+-----------------------------------------------
+CPU time used                    :  00:01:08.80
+
+Generator state:
+11320632141291777753
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N = 10,  n = 30000000,  r = 27,   s = 3,   L = 30,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :   0.071
+p-value of test                       :    0.87
+
+Kolmogorov-Smirnov- statistic = D-    :    0.34
+p-value of test                       :    0.08
+
+Anderson-Darling statistic = A2       :    1.25
+p-value of test                       :    0.25
+
+Test on the sum of all N observations
+Number of degrees of freedom          : 4890
+Chi-square statistic                  : 5013.73
+p-value of test                       :    0.11
+
+-----------------------------------------------
+CPU time used                    :  00:01:10.57
+
+Generator state:
+14344463512738360025
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 30000000,  r =  0,   s = 4,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 4117
+Chi-square statistic                  : 4245.11
+p-value of test                       :    0.08
+
+-----------------------------------------------
+CPU time used                    :  00:00:49.45
+
+Generator state:
+6768632957674686425
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 30000000,  r = 26,   s = 4,   L = 300,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 4117
+Chi-square statistic                  : 4187.02
+p-value of test                       :    0.22
+
+-----------------------------------------------
+CPU time used                    :  00:00:52.45
+
+Generator state:
+14345021858929485017
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r =  0,   s = 5,   L = 1200,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 11825
+Chi-square statistic                  :11995.92
+p-value of test                       :    0.13
+
+-----------------------------------------------
+CPU time used                    :  00:00:55.94
+
+Generator state:
+7018322274448430297
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_HammingIndep test:
+-----------------------------------------------
+   N =  1,  n = 10000000,  r = 25,   s = 5,   L = 1200,   d = 0
+
+
+
+Counters with expected numbers >= 10
+-----------------------------------------------
+Number of degrees of freedom          : 11825
+Chi-square statistic                  :11861.55
+p-value of test                       :    0.40
+
+-----------------------------------------------
+CPU time used                    :  00:00:57.71
+
+Generator state:
+2662041590896723161
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r =  0,   s =    3
+
+
+-----------------------------------------------
+Total number of 1 runs:  2000000000
+
+Number of degrees of freedom          :   54
+Chi2 statistic for number of runs     :   43.85
+p-value of test                       :    0.84
+
+
+-----------------------------------------------
+Total number of bits:  8000133153
+
+Normal statistic for number of bits   :    1.05
+p-value of test                       :    0.15
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:50.86
+
+Generator state:
+7810385437589094692
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_Run test:
+-----------------------------------------------
+   N =  1,  n = 2000000000,  r = 27,   s =    3
+
+
+-----------------------------------------------
+Total number of 1 runs:  2000000000
+
+Number of degrees of freedom          :   54
+Chi2 statistic for number of runs     :   52.43
+p-value of test                       :    0.54
+
+
+-----------------------------------------------
+Total number of bits:  7999967190
+
+Normal statistic for number of bits   :   -0.26
+p-value of test                       :    0.60
+
+
+
+-----------------------------------------------
+CPU time used                    :  00:00:52.19
+
+Generator state:
+2627006837660000950
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000030,  r =  0,   s = 3,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.30
+p-value of test                       :    0.13
+
+Kolmogorov-Smirnov- statistic = D-    :    0.12
+p-value of test                       :    0.70
+
+Anderson-Darling statistic = A2       :    0.87
+p-value of test                       :    0.43
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -0.66
+p-value of test                       :    0.75
+
+Sample variance                       :    0.92
+p-value of test                       :    0.50
+
+-----------------------------------------------
+CPU time used                    :  00:02:09.44
+
+Generator state:
+577772729939601526
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000029,  r =  0,   s = 3,   d = 3
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.13
+p-value of test                       :    0.65
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.71
+
+Anderson-Darling statistic = A2       :    0.30
+p-value of test                       :    0.94
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -0.45
+p-value of test                       :    0.68
+
+Sample variance                       :    1.19
+p-value of test                       :    0.30
+
+-----------------------------------------------
+CPU time used                    :  00:01:52.44
+
+Generator state:
+4753102725854866998
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000030,  r = 27,   s = 3,   d = 1
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.18
+p-value of test                       :    0.48
+
+Kolmogorov-Smirnov- statistic = D-    :    0.11
+p-value of test                       :    0.73
+
+Anderson-Darling statistic = A2       :    0.36
+p-value of test                       :    0.89
+
+Tests on the sum of all N observations
+Standardized normal statistic         :   -0.21
+p-value of test                       :    0.58
+
+Sample variance                       :    0.54
+p-value of test                       :    0.85
+
+-----------------------------------------------
+CPU time used                    :  00:02:10.57
+
+Generator state:
+12349416962297639926
+
+
+
+
+***********************************************************
+HOST = e-MacBookPro, Darwin
+
+minstd_64 lolo
+
+
+sstring_AutoCor test:
+-----------------------------------------------
+   N = 10,  n = 1000000029,  r = 27,   s = 3,   d = 3
+
+
+-----------------------------------------------
+
+Kolmogorov-Smirnov+ statistic = D+    :    0.15
+p-value of test                       :    0.57
+
+Kolmogorov-Smirnov- statistic = D-    :    0.26
+p-value of test                       :    0.22
+
+Anderson-Darling statistic = A2       :    0.56
+p-value of test                       :    0.68
+
+Tests on the sum of all N observations
+Standardized normal statistic         :    0.39
+p-value of test                       :    0.35
+
+Sample variance                       :    0.65
+p-value of test                       :    0.75
+
+-----------------------------------------------
+CPU time used                    :  00:01:54.05
+
+Generator state:
+6950357540327864758
+
+
+
+
+
+========= Summary results of BigCrush =========
+
+ Version:          TestU01 1.2.3
+ Generator:        minstd_64 lolo
+ Number of statistics:  160
+ Total CPU time:   03:04:00.56
+
+ All tests were passed
+
+
+
+minstd_64 e$ 

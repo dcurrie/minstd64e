@@ -1,0 +1,146 @@
+2^128 = 340,282,366,920,938,463,463,374,607,431,768,211,456 (39 digits)
+
+2^128 = 340282366920938463463374607431768211456
+
+2^128 - 1 = 340282366920938463463374607431768211455
+
+3×5×17×257×641×65537×274177×6700417×67280421310721 (9 distinct prime factors)
+
+lll_search "output-file-128" 340282366920938463463374607431768211456 3 5 17 257 641 65537 274177 6700417 67280421310721
+
+
+
+
+lll_spect "output-32.txt" 17 1019135901 4294967296
+
+lll_spect "output-128.txt" 17 199967246047888932297834045878657099405 340282366920938463463374607431768211456
+
+lll_spect "output-128p.txt" 17  47026247687942121848144207491837418733 340282366920938463463374607431768211456
+lll_spect "output-128p1.txt" 17 52583122484843402430317208685168068605 340282366920938463463374607431768211456
+lll_spect "output-128p2.txt" 17 47026247687942121848144207491837523525 340282366920938463463374607431768211456
+
+lll_spect "output-128e.txt" 17 195512031955120319551203195512319551203 340282366920938463463374607431768211456
+lll_spect "output-128e.txt" 17 195512031955120319551203195512031955123 340282366920938463463374607431768211456
+lll_spect "output-128e.txt" 17 195512319551203195512031955120319551203 340282366920938463463374607431768211456
+lll_spect "output-128e.txt" 17 195512031955123195512031955120319551203 340282366920938463463374607431768211456
+lll_spect "output-128e.txt" 17 195512031955120319551231955120319551203 340282366920938463463374607431768211456
+lll_spect "output-128e.txt" 17 195512031955120319551203195512319551203 340282366920938463463374607431768211456
+
+lll_spect "output-128e.txt" 17 239041969712186358318149942064307331521 340282366920938463463374607431768211456
+lll_spect "output-128e.txt" 17 297622791907607149656681465806506407833 340282366920938463463374607431768211456
+lll_spect "output-128e.txt" 17 166954270402973300580796982790132994517 340282366920938463463374607431768211456
+
+lll_esearch "output_e.txt" 340282366920938463463374607431768211456 3
+
+lll_spect "output-128e.txt" 17 270622243429375485659189505394017399637 340282366920938463463374607431768211456
+
+lll_esearch "output_e2.txt" 340282366920938463463374607431768211456 7
+
+lll_spect "output-128e21.txt" 17 107079756248902721105673654267077085377 340282366920938463463374607431768211456
+lll_spect "output-128e22.txt" 17  83351252146946979128969326082587357617 340282366920938463463374607431768211456
+
+lll_esearch "output_e3.txt" 340282366920938463463374607431768211456 11
+
+lll_esearch "output_e4.txt" 340282366920938463463374607431768211456 13
+
+lll_spect "output-128e41.txt" 24 334743630366468457063381874606658816645 340282366920938463463374607431768211456
+
+lll_esearch "output_e5.txt" 340282366920938463463374607431768211456 17
+
+lll_spect "output-128e51.txt" 24 96919585722950335898058809156942021465 340282366920938463463374607431768211456
+
+lll_esearch "output_e6.txt" 340282366920938463463374607431768211456 19
+
+lll_spect "output-128e61.txt" 24 44629693204054986313095191502463994785 340282366920938463463374607431768211456
+
+
+> (number->string 44629693204054986313095191502463994785 16)
+"21935dc2e417e6615a3a5a07fd848ba1"
+> #x21935dc2e417e6615a3a5a07fd848ba1
+44629693204054986313095191502463994785
+
+
+
+
+
+> (number->string 161208845413696081454645897829429164777 16)
+"7947b1bb901b788587850692e84a3ae9"
+> #x7947b1bb901b788587850692e84a3ae9
+161208845413696081454645897829429164777
+
+PractRand_0.93 e$ ./minstd_64 | ./RNG_test stdin64
+A: 0x7947b1bb901b7885_87850692e84a3ae9
+C: 0x0000000000000000_0000000000000001
+S: 0x0000000000000000_0000000000000001
+RNG_test using PractRand version 0.93
+RNG = RNG_stdin64, seed = 0x410360a6
+test set = normal, folding = standard (64 bit)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 256 megabytes (2^28 bytes), time= 2.7 seconds
+  no anomalies in 159 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 512 megabytes (2^29 bytes), time= 6.0 seconds
+  Test Name                         Raw       Processed     Evaluation
+  [Low1/64]DC6-9x1Bytes-1           R=  -4.1  p =1-5.7e-3   unusual          
+  ...and 168 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 1 gigabyte (2^30 bytes), time= 12.1 seconds
+  no anomalies in 180 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 2 gigabytes (2^31 bytes), time= 23.4 seconds
+  no anomalies in 191 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 4 gigabytes (2^32 bytes), time= 45.2 seconds
+  Test Name                         Raw       Processed     Evaluation
+  [Low1/64]BCFN(2+0,13-3,T)         R=  +8.4  p =  8.6e-4   unusual          
+  ...and 200 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 8 gigabytes (2^33 bytes), time= 89.9 seconds
+  no anomalies in 212 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 16 gigabytes (2^34 bytes), time= 179 seconds
+  no anomalies in 223 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 32 gigabytes (2^35 bytes), time= 359 seconds
+  no anomalies in 233 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 64 gigabytes (2^36 bytes), time= 717 seconds
+  no anomalies in 244 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 128 gigabytes (2^37 bytes), time= 1432 seconds
+  Test Name                         Raw       Processed     Evaluation
+  [Low16/64]Gap-16:B                R=  -4.2  p =1-1.5e-3   unusual          
+  ...and 254 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 256 gigabytes (2^38 bytes), time= 2797 seconds
+  Test Name                         Raw       Processed     Evaluation
+  [Low4/64]BCFN(2+2,13-0,T)         R=  +7.7  p =  1.2e-3   unusual          
+  ...and 264 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 512 gigabytes (2^39 bytes), time= 5554 seconds
+  no anomalies in 276 test result(s)
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 1 terabyte (2^40 bytes), time= 11008 seconds
+  Test Name                         Raw       Processed     Evaluation
+  [Low4/64]Gap-16:B                 R=  +4.3  p =  1.2e-3   unusual          
+  ...and 286 test result(s) without anomalies
+
+rng=RNG_stdin64, seed=0x410360a6
+length= 2 terabytes (2^41 bytes), time= 21714 seconds
+  no anomalies in 297 test result(s)
+
+^C
+

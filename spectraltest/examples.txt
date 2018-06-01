@@ -1,0 +1,159 @@
+---------------------------lll_spect.C----------------------------
+
+
+
+
+
+Usage:
+
+
+
+    lll_spect ["ouput-file"] [dimension] [multiplier] [modulus]
+
+
+
+
+
+Example:
+
+
+
+    lll_spect "output.txt" 17 16907 2147483647
+
+
+
+
+
+yields:
+
+
+
+==============================================================
+
+Modul:                  2147483647
+
+Multiplikator:          16907
+
+Dimension up to:          17
+
+==============================================================
+
+[dim]   [normalized_spectraltest]
+
+
+
+2       0.339521
+
+3       0.664031
+
+4       0.563232
+
+5       0.392962
+
+6       0.55129
+
+7       0.631505
+
+8       0.743502
+
+9       0.557965
+
+10      0.687254
+
+11      0.658881
+
+12      0.754932
+
+13      0.608785
+
+14      0.48168
+
+15      0.521614
+
+16      0.558285
+
+17      0.591849
+
+
+
+Time [s]:       0
+
+
+
+
+
+
+
+
+
+--------------------------------lll_search.C--------------------------
+
+
+
+Usage:
+
+        lll_search ["output-file"] [modulus] [prim-factors of modulus-1]
+
+
+
+Example:
+
+        lll_search "output-file" 2147483647 2 3 7 11 31 151 331
+
+
+
+
+
+may yield:
+
+
+
+
+
+2147483647 2 3 7 11 31 151 331
+
+time    0       n       1       a       7           0.000141999
+
+time    0       n       5       a       16807       0.337513
+
+time    0       n       17      a       52958638        0.523292
+
+time    0       n       37      a       655382362       0.570646
+
+time    0       n       79      a       776069971       0.625391
+
+time    4       n       1061    a       291971947       0.628671
+
+time    5       n       1429    a       2092178609      0.631823
+
+time    10      n       2671    a       1241412670      0.651958
+
+time    18      n       4573    a       365705751       0.677872
+
+
+
+time    41              a       365705751       0.677872
+
+
+
+
+
+
+
+Therefore the best parameter for modulus m=2147483647 equals
+
+                         a=365705751 with
+
+                     M_8 = 0.677872
+
+
+
+
+
+The random search is performed using a starting primitive root
+
+in our case pr=7. Further primitive roots are calculated via pr^n mod m.
+
+The prime factors in the input are used for primitive root checks.
+
+
