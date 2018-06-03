@@ -56,3 +56,5 @@ dkms.conf
 
 # application binary
 crush-minstd_64-e
+# test binary
+crush-minstd_64-e2
