@@ -13,4 +13,4 @@ crush-minstd_64-e: minstd_64.c minstd_64.h
 
 # force use of non-__int128 code
 crush-minstd_64-e2: minstd_64.c minstd_64.h
-		cc -O3 -std=c99 -Wall minstd_64.c -DHAVE___UINT128_T=0 -DTESTU01=1 $(INC) $(LIBS) -o $@
+	cc -O3 -std=c99 -Wall minstd_64.c -DHAVE___UINT128_T=0 -DTESTU01=1 $(INC) $(LIBS) -o $@
