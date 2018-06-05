@@ -24,4 +24,4 @@ All tests pass! By this I mean:
 * BigCrush "All tests were passed" for 32 LSBs reversed  -- see `output/full-crush-minstd_64-e_lorev.txt`
 * BigCrush "All tests were passed" for 32 MSBs  -- see `output/full-crush-minstd_64-e_hihi.txt`
 * BigCrush "All tests were passed" for 32 MSBs reversed  -- see `output/full-crush-minstd_64-e_hirev.txt`
-* Hamming-weight dependency test: no failures up to 4 x 10^14 bytes (still running) -- see `hwd/hwd_out.txt`
+* Hamming-weight dependency test: no failures up to 5 x 10^14 bytes (process stopped) -- see `hwd/hwd_out.txt`
