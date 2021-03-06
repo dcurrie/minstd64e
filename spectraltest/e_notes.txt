@@ -83,7 +83,7 @@ length= 256 megabytes (2^28 bytes), time= 2.7 seconds
 rng=RNG_stdin64, seed=0x410360a6
 length= 512 megabytes (2^29 bytes), time= 6.0 seconds
   Test Name                         Raw       Processed     Evaluation
-  [Low1/64]DC6-9x1Bytes-1           R=  -4.1  p =1-5.7e-3   unusual          
+  [Low1/64]DC6-9x1Bytes-1           R=  -4.1  p =1-5.7e-3   unusual
   ...and 168 test result(s) without anomalies
 
 rng=RNG_stdin64, seed=0x410360a6
@@ -97,7 +97,7 @@ length= 2 gigabytes (2^31 bytes), time= 23.4 seconds
 rng=RNG_stdin64, seed=0x410360a6
 length= 4 gigabytes (2^32 bytes), time= 45.2 seconds
   Test Name                         Raw       Processed     Evaluation
-  [Low1/64]BCFN(2+0,13-3,T)         R=  +8.4  p =  8.6e-4   unusual          
+  [Low1/64]BCFN(2+0,13-3,T)         R=  +8.4  p =  8.6e-4   unusual
   ...and 200 test result(s) without anomalies
 
 rng=RNG_stdin64, seed=0x410360a6
@@ -119,13 +119,13 @@ length= 64 gigabytes (2^36 bytes), time= 717 seconds
 rng=RNG_stdin64, seed=0x410360a6
 length= 128 gigabytes (2^37 bytes), time= 1432 seconds
   Test Name                         Raw       Processed     Evaluation
-  [Low16/64]Gap-16:B                R=  -4.2  p =1-1.5e-3   unusual          
+  [Low16/64]Gap-16:B                R=  -4.2  p =1-1.5e-3   unusual
   ...and 254 test result(s) without anomalies
 
 rng=RNG_stdin64, seed=0x410360a6
 length= 256 gigabytes (2^38 bytes), time= 2797 seconds
   Test Name                         Raw       Processed     Evaluation
-  [Low4/64]BCFN(2+2,13-0,T)         R=  +7.7  p =  1.2e-3   unusual          
+  [Low4/64]BCFN(2+2,13-0,T)         R=  +7.7  p =  1.2e-3   unusual
   ...and 264 test result(s) without anomalies
 
 rng=RNG_stdin64, seed=0x410360a6
@@ -135,7 +135,7 @@ length= 512 gigabytes (2^39 bytes), time= 5554 seconds
 rng=RNG_stdin64, seed=0x410360a6
 length= 1 terabyte (2^40 bytes), time= 11008 seconds
   Test Name                         Raw       Processed     Evaluation
-  [Low4/64]Gap-16:B                 R=  +4.3  p =  1.2e-3   unusual          
+  [Low4/64]Gap-16:B                 R=  +4.3  p =  1.2e-3   unusual
   ...and 286 test result(s) without anomalies
 
 rng=RNG_stdin64, seed=0x410360a6
@@ -143,4 +143,55 @@ length= 2 terabytes (2^41 bytes), time= 21714 seconds
   no anomalies in 297 test result(s)
 
 ^C
+
+##############################################################################
+
+---------- Forwarded message ---------
+From: Melissa O'Neill <oneill@cs.hmc.edu>
+Date: Mar 4, 2021 at 8:53:59 PM
+Subject: Re: LLL spectral test code
+To: Doug Currie <doug.currie@gmail.com>
+
+
+Hi Doug,
+
+Hope you're doing okay!
+
+I just wanted to share something I finally got around to figuring out.  In
+L'Ecuyer's work on spectral tests, he tests up to 32 dimensions, but Karl
+Entacher's code only had constants up to 24.
+
+Here's a Mathematica definition for the constants up to 48:
+
+        { 1/(2 Sqrt[3]), 1/(4 Sqrt[2]), 1/8, 1/(8 Sqrt[2]), 1/(8 Sqrt[3]),
+          1/16, 1/16, 0.06007, 0.05953, 0.06136, 0.06559, 0.07253,
+          0.08278, 0.09735, 0.11774, 0.14624, 0.18629, 0.24308, 0.32454,
+          0.44289, 0.61722, 0.87767, 1.27241, 1.87977, 2.82677, 4.32515,
+          6.72955, 10.6416, 17.0940, 27.8797, 46.1471, 77.4869, 131.937,
+          227.715, 398.245, 705.496, 1265.56, 2298.18, 4223.47, 7852.67,
+          14767.7, 28083.1, 53989.6,  104907,  205984,  408604,  818696 }
+
+I've confirmed that they reproduce L'Ecuyer's work.  If you wanted to put them into the C code you maintain on Github, that'd be cool.
+
+The above constants (and some alternative ones representing tighter bounds) can also be found in Henry Cohn and Noam Elkies's paper, _New upper bounds on sphere packings_ in Annals of Mathematics, 157 (2003), 689–714, and the formula for calculating Rogers's approximation is in book _Sphere packings, lattices and groups_ by J. H. Conway and N. J. A. Sloane (via the formula on page 19, originally due to Leech).
+
+Cheers,
+
+   Melissa.
+
+##############################################################################
+
+Compiled with
+#define USE_Entacher_CONSTS (0)
+#define USE_Cohn_Elkies_CONSTS (1)
+#define USE_ONeill_CONSTS (1)
+
+./lll_spect "output-128e63.txt" 36 44629693204054986313095191502463994785 340282366920938463463374607431768211456
+
+Compiled with
+#define USE_Entacher_CONSTS (1)
+#define USE_Cohn_Elkies_CONSTS (0)
+#define USE_ONeill_CONSTS (1)
+
+./lll_spect "output-128e64.txt" 48 44629693204054986313095191502463994785 340282366920938463463374607431768211456
 
