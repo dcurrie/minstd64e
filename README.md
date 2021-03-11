@@ -32,6 +32,6 @@ With help from Melissa, the spectral test code was extended to 48 dimensions usi
 
 `lll_spect [-c|--Cohn_Elkies [0|1]] [-b|--blocksize <2..48>] [-h|--help] <output-file-name> <dim> <mult> <modul>`
 
-The default block size is 10. It can be varied between 2 and the <dim> to tp trade speed and accuracy. Using a value of 30 was sufficient to obtain accuracy equivalent to Karl Entacher's Mathematica implementation in our tests.
+The default block size is 10. It can be varied between 2 and the `<dim>` to trade speed and accuracy. Using a value of 30 was sufficient to obtain accuracy equivalent to Karl Entacher's Mathematica implementation in our tests.
 
-The set of constants defaults to the original Entacher constants extended with L'Ecuyer, Leech, Rogers values up to <dim> 48. Specifying `-c` switches to the Cohn & Elkies values, which is limited to <dim> 36.
+The set of constants defaults to the original Entacher constants extended with L'Ecuyer, Leech, Rogers values up to `<dim>` 48. Specifying `-c` switches to the Cohn & Elkies values, which is limited to `<dim>` 36.
