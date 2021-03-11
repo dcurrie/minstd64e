@@ -146,52 +146,9 @@ length= 2 terabytes (2^41 bytes), time= 21714 seconds
 
 ##############################################################################
 
----------- Forwarded message ---------
-From: Melissa O'Neill <oneill@cs.hmc.edu>
-Date: Mar 4, 2021 at 8:53:59 PM
-Subject: Re: LLL spectral test code
-To: Doug Currie <doug.currie@gmail.com>
+March 2021
 
+./lll_spect -c -b 30 "output-128e6c30.txt" 36 44629693204054986313095191502463994785 340282366920938463463374607431768211456
 
-Hi Doug,
-
-Hope you're doing okay!
-
-I just wanted to share something I finally got around to figuring out.  In
-L'Ecuyer's work on spectral tests, he tests up to 32 dimensions, but Karl
-Entacher's code only had constants up to 24.
-
-Here's a Mathematica definition for the constants up to 48:
-
-        { 1/(2 Sqrt[3]), 1/(4 Sqrt[2]), 1/8, 1/(8 Sqrt[2]), 1/(8 Sqrt[3]),
-          1/16, 1/16, 0.06007, 0.05953, 0.06136, 0.06559, 0.07253,
-          0.08278, 0.09735, 0.11774, 0.14624, 0.18629, 0.24308, 0.32454,
-          0.44289, 0.61722, 0.87767, 1.27241, 1.87977, 2.82677, 4.32515,
-          6.72955, 10.6416, 17.0940, 27.8797, 46.1471, 77.4869, 131.937,
-          227.715, 398.245, 705.496, 1265.56, 2298.18, 4223.47, 7852.67,
-          14767.7, 28083.1, 53989.6,  104907,  205984,  408604,  818696 }
-
-I've confirmed that they reproduce L'Ecuyer's work.  If you wanted to put them into the C code you maintain on Github, that'd be cool.
-
-The above constants (and some alternative ones representing tighter bounds) can also be found in Henry Cohn and Noam Elkies's paper, _New upper bounds on sphere packings_ in Annals of Mathematics, 157 (2003), 689–714, and the formula for calculating Rogers's approximation is in book _Sphere packings, lattices and groups_ by J. H. Conway and N. J. A. Sloane (via the formula on page 19, originally due to Leech).
-
-Cheers,
-
-   Melissa.
-
-##############################################################################
-
-Compiled with
-#define USE_Entacher_CONSTS (0)
-#define USE_Cohn_Elkies_CONSTS (1)
-#define USE_ONeill_CONSTS (1)
-
-./lll_spect "output-128e63.txt" 36 44629693204054986313095191502463994785 340282366920938463463374607431768211456
-
-Compiled with
-#define USE_Entacher_CONSTS (1)
-#define USE_Cohn_Elkies_CONSTS (0)
-#define USE_ONeill_CONSTS (1)
-
-./lll_spect "output-128e64.txt" 48 44629693204054986313095191502463994785 340282366920938463463374607431768211456
+./lll_spect -b 30 "output-128e64_30.txt" 48 44629693204054986313095191502463994785 340282366920938463463374607431768211456
 

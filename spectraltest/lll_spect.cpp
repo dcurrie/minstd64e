@@ -12,7 +12,7 @@ Authors: Karl Entacher, Karl.Entacher@fh-sbg.ac.at    January 2000
 /* Modified by Doug Currie, March 2021, with help from Melissa O'Neill
 // -- extended fact_RR[] constants beyond 24 using L'Ecuyer, Leech, Rogers values
 // -- added alternate fact_RR[] constants from Cohn & Elkies
-// -- switched from simpler LLL algorithm to BKZ version to obtain accurracy
+// -- switched from simpler LLL algorithm to BKZ version to obtain accuracy
 //     equivalent to Karl Entacher's Mathematica implementation
 // -- added optparse to control selection of constants and BKZ blocksize
 */
@@ -103,7 +103,7 @@ static void help()
        << "      : Cohn & Elkies constants used when argument omitted" << endl
        << "      : without -c the original Entacher constants are used" << endl;
   cout << "   [-b|--blocksize <2..48>]" << endl
-       << "     2: fastest, most conservative, least accurrate" << endl
+       << "     2: fastest, most conservative, least accurate" << endl
        << "    30: slower, matches Karl Entacher's Mathematica implementation in accuracy" << endl
        << "      : between 2 and 30 will trade speed and accuracy" << endl
        << "      : larger values are permitted but should be smaller than <dim> to be meaningful" << endl
